@@ -24,9 +24,32 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/website/css/bootstrap.min.css",
+              "src/assets/website/css/animate.css",
+              "src/assets/website/css/magnific-popup.css",
+              "src/assets/website/css/all.min.css",
+              "src/assets/website/css/metisMenu.css",
+              "src/assets/website/css/nice-select.css",
+              "src/assets/website/css/spacing.css",
+              "src/assets/website/css/main.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/website/js/vendor/modernizr-3.5.0.min.js",
+              "src/assets/website/js/vendor/jquery-1.12.4.min.js",
+              "src/assets/website/js/popper.min.js",
+              "src/assets/website/js/bootstrap.min.js",
+              "src/assets/website/js/owl.carousel.min.js",
+              "src/assets/website/js/isotope.pkgd.min.js",
+              "src/assets/website/js/metisMenu.min.js",
+              "src/assets/website/js/jquery.nice-select.js",
+              "src/assets/website/js/wow.min.js",
+              "src/assets/website/js/jquery.counterup.min.js",
+              "src/assets/website/js/waypoints.min.js",
+              "src/assets/website/js/imagesloaded.pkgd.min.js",
+              "src/assets/website/js/jquery.magnific-popup.min.js",
+              "src/assets/website/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
