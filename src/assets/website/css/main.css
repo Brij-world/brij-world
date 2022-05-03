@@ -372,7 +372,8 @@ section-title
   z-index: 2;
 }
 .section-title h6 {
-  color: #ff3f41;
+  /* color: #ff3f41; */
+  color: #364162;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -2793,7 +2794,8 @@ input.main-search-input:-ms-input-placeholder {
 .theme_btn {
   overflow: hidden;
   color: white;
-  background: #ff3e41;
+  /* background: #ff3e41; */
+  background: #FFAE00;
   font-size: 18px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -2808,7 +2810,8 @@ input.main-search-input:-ms-input-placeholder {
 }
 .theme_btn:hover {
   color: white;
-  background: #51cfed;
+  /* background: #51cfed; */
+  background: #364162;
 }
 .theme_btn.style-3:hover {
   transform: translateY(-3px);
@@ -2853,6 +2856,12 @@ input.main-search-input:-ms-input-placeholder {
 .theme_btn_border.style-2b:hover {
   color: white;
   background-color: #ff3e41;
+}
+
+
+.border_btn_blue {
+  color: #364162;
+  border-color: #364162;
 }
 
 .border_btn_red {

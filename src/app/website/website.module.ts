@@ -12,13 +12,15 @@ import { WebsiteFooterComponent } from './website-footer/website-footer.componen
 import { SolutionComponent } from './solution/solution.component';
 import { NewsComponent } from './news/news.component';
 import { WebsiteLoderComponent } from './website-loder/website-loder.component';
+import { FaqComponent } from './faq/faq.component';
 
 export const routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'service', component: ServiceComponent },
   { path: 'contact', component: ContactComponent },
-  { path: 'solution', component: SolutionComponent }
+  { path: 'solution', component: SolutionComponent },
+  { path: 'faq', component: FaqComponent }
 
 ]
 
@@ -35,7 +37,8 @@ export const routes = [
     WebsiteFooterComponent,
     SolutionComponent,
     NewsComponent,
-    WebsiteLoderComponent
+    WebsiteLoderComponent,
+    FaqComponent
   ],
   imports: [
     CommonModule,
