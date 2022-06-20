@@ -12,7 +12,7 @@
                             <div class="nav-container">
                                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul class="navbar-nav list-style-none">
-                                        <li class="nav-item">
+                                        <li class="nav-item ">
                                             <a class="nav-link" [routerLink]="['/site/home']" id="navbarDropdown1"
                                                 role="button" aria-expanded="false">Home</a>
                                         </li>
@@ -65,3 +65,21 @@
         </div>
     </div>
 </header>
+<aside class="slide-bar">
+    <div class="close-mobile-menu">
+        <a href="javascript:void(0);"><i class="fas fa-times"></i></a>
+    </div>
+
+    <!-- side-mobile-menu start -->
+    <nav class="side-mobile-menu">
+        <ul id="mobile-menu-active">
+            <li><a [routerLink]="['/site/home']">Home</a></li>
+            <li><a [routerLink]="['/site/service']">Services</a></li>
+            <li><a [routerLink]="['/site/about']">About</a></li>
+            <li><a [routerLink]="['/site/solution']">Solution</a></li>
+            <li><a [routerLink]="['/site/contact']">Contacts Us</a></li>
+        </ul>
+    </nav>
+    <!-- side-mobile-menu end -->
+</aside>
+<div class="body-overlay"></div>

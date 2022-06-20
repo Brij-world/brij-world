@@ -679,35 +679,41 @@ section-title
 #theme-menu-one {
   padding-left: 85px;
   padding-right: 85px;
+  background-color: white;
 }
 @media only screen and (min-width: 1601px) and (max-width: 1800px) {
   #theme-menu-one {
     padding-left: 0;
     padding-right: 0;
+    background-color: white;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   #theme-menu-one {
     padding-left: 0;
     padding-right: 0;
+    background-color: white;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   #theme-menu-one {
     padding-left: 15px;
     padding-right: 15px;
+    background-color: white;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   #theme-menu-one {
     padding-left: 15px;
     padding-right: 15px;
+    background-color: white;
   }
 }
 @media (max-width: 767px) {
   #theme-menu-one {
     padding-left: 0;
     padding-right: 0;
+    background-color: white;
   }
 }
 
