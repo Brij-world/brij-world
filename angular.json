@@ -25,15 +25,14 @@
             ],
             "styles": [
               "src/assets/website/css/bootstrap.min.css",
+              "src/assets/website/css/owl.carousel.min.css",
               "src/assets/website/css/animate.css",
               "src/assets/website/css/magnific-popup.css",
               "src/assets/website/css/all.min.css",
-              "src/assets/website/css/owl.carousel.min.css",
               "src/assets/website/css/metisMenu.css",
               "src/assets/website/css/nice-select.css",
               "src/assets/website/css/spacing.css",
               "src/assets/website/css/main.css",
-              "src/assets/website/css/animate.css",
               "src/styles.css"
             ],
             "scripts": [

@@ -36,13 +36,13 @@
 		& img {
 			max-width: 100%;
 			@media #{$lg} {
-				max-width: 80%;
+				max-width: 70%;
 			}
 			@media #{$md} {
-				max-width: 50%;
+				max-width: 40%;
 			}
 			@media #{$xs} {
-				max-width: 80%;
+				max-width: 70%;
 			}
 		}
 	}

@@ -12,4 +12,14 @@ export class WebsiteNavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  showMenu() {
+    var element = document.getElementById('show-mobile-menu');
+    element.classList.add('show');
+  }
+
+  closeMenu(){
+    var element = document.getElementById('show-mobile-menu');
+    element.classList.remove('show');
+  }
+
 }

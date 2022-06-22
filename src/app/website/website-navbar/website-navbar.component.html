@@ -1,6 +1,6 @@
 <header>
     <div id="hideshow-sticky-menu">
-        <div id="theme-menu-one" class="main-header-area menu-style-1 pt-20 pb-15">
+        <div id="theme-menu-one" class="main-header-area menu-style-1">
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-xl-2 col-lg-2 col-6">
@@ -45,7 +45,7 @@
                             </div>
                         </nav>
                         <div class="right-nav d-flex align-items-center justify-content-end">
-                            <div class="hamburger-menu d-md-inline-block d-lg-none text-right mr-15">
+                            <div (click)="showMenu()" class="hamburger-menu d-md-inline-block d-lg-none text-right mr-15">
                                 <a href="javascript:void(0);">
                                     <i class="far fa-bars"></i>
                                 </a>
@@ -65,9 +65,9 @@
         </div>
     </div>
 </header>
-<aside class="slide-bar">
+<aside id="show-mobile-menu" class="slide-bar">
     <div class="close-mobile-menu">
-        <a href="javascript:void(0);"><i class="fas fa-times"></i></a>
+        <a href="javascript:void(0);" (click)="closeMenu()"><i class="fas fa-times"></i></a>
     </div>
 
     <!-- side-mobile-menu start -->
@@ -77,6 +77,7 @@
             <li><a [routerLink]="['/site/service']">Services</a></li>
             <li><a [routerLink]="['/site/about']">About</a></li>
             <li><a [routerLink]="['/site/solution']">Solution</a></li>
+            <li><a [routerLink]="['/site/faq']">FAQ</a></li>
             <li><a [routerLink]="['/site/contact']">Contacts Us</a></li>
         </ul>
     </nav>
