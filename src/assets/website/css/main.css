@@ -272,7 +272,9 @@ label {
     - Background color
 -----------------------------------------*/
 .grey-bg {
-  background: #f8f2f0;
+  background: #f8f0e5;;
+  /* background: #f8f2f0; */
+  /* background: #19191b url('../img/brij/delivery-guy.svg') no-repeat; */
 }
 
 .grey-bg-soft {
@@ -331,7 +333,8 @@ label {
 }
 
 .theme-color {
-  color: #ff3e41;
+  /* color: #ff3e41; */
+  color: #FFAE00;
 }
 
 .theme-color2 {
@@ -1163,21 +1166,25 @@ section-title
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .page-title-wrapper .page-title {
     font-size: 45px;
+    color: #fff;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .page-title-wrapper .page-title {
     font-size: 42px;
+    color: #fff;
   }
 }
 @media (max-width: 767px) {
   .page-title-wrapper .page-title {
     font-size: 26px;
+    color: #fff;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .page-title-wrapper .page-title {
     font-size: 36px;
+    color: #fff;
   }
 }
 
@@ -4538,6 +4545,7 @@ input.main-search-input:-ms-input-placeholder {
 }
 .single-work__icon {
   background-color: #E7F4F7;
+  /* background-color: #041442; */
   display: inline-block;
   width: 120px;
   height: 120px;
@@ -4548,6 +4556,7 @@ input.main-search-input:-ms-input-placeholder {
 }
 .single-work .semi-title {
   color: #18152c;
+  
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .single-work .semi-title {
@@ -4641,7 +4650,8 @@ input.main-search-input:-ms-input-placeholder {
 }
 
 .sw-4 .single-work__icon {
-  background-color: #E9F3FF;
+  /* background-color: #E9F3FF; */
+  background-color: #364162;
 }
 
 .section-title2 h2 .w-round-shape::before {
@@ -6733,7 +6743,8 @@ input.main-search-input:-ms-input-placeholder {
 
 .fot_sub_btn {
   border: 0;
-  background-color: #51cfed;
+  /* background-color: #51cfed; */
+  background-color: #ffc107;
   padding: 18px 16px;
   position: absolute;
   right: 0;

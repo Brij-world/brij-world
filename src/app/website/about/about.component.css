@@ -1,3 +1,22 @@
 .shape-style{
     background: none !important;
 }
+
+.page-title-area {
+    background: #19191b url('../../../assets/website/img/brij/man-delivery.jpeg') no-repeat;
+    background-size: cover;
+    /* opacity: 0.75; */
+}
+
+.p-style{
+    font-size: 14px;
+    padding-bottom: 60px
+}
+
+.c-service {
+    padding: 0px !important;
+}
+
+/* .title {
+    color: rgb(255, 255, 255);
+} */
