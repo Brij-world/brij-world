@@ -3,3 +3,7 @@
     background-size: cover;
     /* opacity: 0.75; */
 }
+
+.slide-title {
+    font-size: 50px;
+}
